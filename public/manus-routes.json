@@ -1,0 +1,12 @@
+{
+  "routes": [
+    { "path": "/", "title": "Home — MAPolyGo" },
+    { "path": "/explore", "title": "Explore campus — MAPolyGo" },
+    { "path": "/navigate", "title": "Plan a route — MAPolyGo" },
+    { "path": "/directions", "title": "Walking directions — MAPolyGo" },
+    { "path": "/place/:id", "title": "Place details — MAPolyGo" },
+    { "path": "/gallery", "title": "Campus gallery — MAPolyGo" },
+    { "path": "/guide", "title": "AI campus guide — MAPolyGo" },
+    { "path": "/resources", "title": "Visitor resources — MAPolyGo" }
+  ]
+}

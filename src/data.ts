@@ -13,6 +13,7 @@ export type Place = {
   distance: string
   accent: string
   position: { left: number; top: number }
+  location: { lat: number; lng: number }
   image: string
 }
 
@@ -30,6 +31,7 @@ export const places: Place[] = [
     distance: '320 m',
     accent: '#0b8f83',
     position: { left: 43, top: 37 },
+    location: { lat: 7.1018, lng: 3.3302 },
     image: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1100&q=80',
   },
   {
@@ -45,6 +47,7 @@ export const places: Place[] = [
     distance: '460 m',
     accent: '#ee8067',
     position: { left: 66, top: 20 },
+    location: { lat: 7.1025, lng: 3.3312 },
     image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1100&q=80',
   },
   {
@@ -60,6 +63,7 @@ export const places: Place[] = [
     distance: '540 m',
     accent: '#4863c9',
     position: { left: 49, top: 72 },
+    location: { lat: 7.1008, lng: 3.3308 },
     image: 'https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?auto=format&fit=crop&w=1100&q=80',
   },
   {
@@ -75,6 +79,7 @@ export const places: Place[] = [
     distance: '680 m',
     accent: '#d99335',
     position: { left: 18, top: 59 },
+    location: { lat: 7.1012, lng: 3.3295 },
     image: 'https://images.unsplash.com/photo-1519452575417-564c1401ecc0?auto=format&fit=crop&w=1100&q=80',
   },
   {
@@ -90,6 +95,7 @@ export const places: Place[] = [
     distance: '1.1 km',
     accent: '#825ac1',
     position: { left: 10, top: 78 },
+    location: { lat: 7.1005, lng: 3.3288 },
     image: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=1100&q=80',
   },
   {
@@ -105,6 +111,7 @@ export const places: Place[] = [
     distance: '740 m',
     accent: '#2f9a6d',
     position: { left: 31, top: 25 },
+    location: { lat: 7.1022, lng: 3.3298 },
     image: 'https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=1100&q=80',
   },
   {
@@ -120,6 +127,7 @@ export const places: Place[] = [
     distance: '390 m',
     accent: '#d3618a',
     position: { left: 57, top: 48 },
+    location: { lat: 7.1015, lng: 3.3305 },
     image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1100&q=80',
   },
   {
@@ -135,6 +143,7 @@ export const places: Place[] = [
     distance: '860 m',
     accent: '#4e8dc4',
     position: { left: 79, top: 31 },
+    location: { lat: 7.1028, lng: 3.3315 },
     image: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1100&q=80',
   },
 ]
