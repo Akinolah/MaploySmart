@@ -1,0 +1,11 @@
+# MAPolyGo Redesign Outcomes
+
+- **Deliver a polished responsive campus-navigation shell and clear information architecture:** the experience must work across mobile, tablet, and desktop through responsive layouts, keyboard-accessible controls, readable contrast, clear feedback states, and consistent campus-focused navigation; it must include Home, Explore, Navigate, Directions, Place Details, Gallery, AI Guide, and Resources pages.
+- **Deliver an easier directory and place-discovery experience:** users must be able to search and browse campus buildings, facilities, landmarks, and common destinations with clear categories and useful filters; every place card must expose a clear path to details, routing, and map location.
+- **Deliver a clearer route-planning flow:** users must be able to select a starting point and destination, use the device current-location option with visible permission/status and fallback guidance, reverse or reset selections, and see route distance, estimated time, and an easy-to-understand route summary.
+- **Deliver a map workspace that communicates location and route state:** the interactive map surface must show labeled places, selected-location states, route overlays, a user-location marker, zoom/pan affordances, and a useful legend or fallback explanation when live map data is unavailable.
+- **Deliver step-by-step walking directions:** the directions page must show clear maneuver instructions, progress context, route distance/time, and controls to reverse, reset, or adjust the route.
+- **Deliver useful place detail pages:** each place detail view must include description, imagery, opening/service information where available, accessibility notes, and quick actions to route there or locate it on the map.
+- **Deliver a responsive campus gallery:** the gallery must support categorized imagery and an accessible full-screen viewing experience.
+- **Deliver an AI campus guide surface:** the guide must support conversational help UI for finding places, understanding routes, and answering campus-navigation questions, with suggested prompts and clear limitations about the prototype scope.
+- **Deliver navigation-support content:** the Resources page must include a campus directory, popular destinations, first-time visitor guidance, accessibility information, map legend, FAQs, and contact or emergency information.
